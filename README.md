@@ -1,5 +1,9 @@
 # AI Data Center Capacity Planning Agent
 
+
+https://github.com/user-attachments/assets/6969a5cd-a1b7-4d67-9b00-23d93af86513
+
+
 Production-oriented capacity planning for GPU, power, storage, and network infrastructure using React, FastAPI, PostgreSQL, Prophet/XGBoost, and LangGraph.
 
 ## Important: real-data mode
