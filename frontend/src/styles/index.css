@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+:root{font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;color:#3a451c;background:#f7f8ee;font-synthesis:none;text-rendering:optimizeLegibility}*{box-sizing:border-box}html{background:#f7f8ee}body{margin:0;min-width:320px;min-height:100vh;background:#f7f8ee}button,input,select,textarea{font:inherit}button{cursor:pointer}table{border-collapse:collapse}::-webkit-scrollbar{width:9px;height:9px}::-webkit-scrollbar-thumb{background:#c9cfb4;border-radius:999px}::-webkit-scrollbar-track{background:transparent}
+:focus-visible{outline:3px solid rgba(111,129,59,.45);outline-offset:2px}
+@media (prefers-reduced-motion: reduce){*,*::before,*::after{animation-duration:.01ms!important;animation-iteration-count:1!important;scroll-behavior:auto!important;transition-duration:.01ms!important}}
+html,body,#root{background:#f7f8ee;color:#3a451c;color-scheme:light}

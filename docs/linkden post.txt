@@ -1,0 +1,43 @@
+🚀 Project Showcase: AI Data Center Capacity Planning Agent
+I’m excited to share one of my latest full-stack AI projects: AI Data Center Capacity Planning Agent — a production-oriented platform designed to help infrastructure teams forecast capacity needs, detect shortages early, compare expansion scenarios, and make smarter procurement decisions.
+The system is built around a real operational workflow:
+Real Infrastructure Data → Validation → PostgreSQL → Forecasting → Capacity Risk Analysis → Scenarios → Procurement → Alerts → AI Recommendations → Reports & Dashboard
+Key Features
+- GPU demand forecasting
+- Power capacity projections
+- Storage growth forecasting
+- Network throughput forecasting
+- Prophet and XGBoost support
+- Confidence intervals and forecast accuracy metrics
+- Capacity headroom and shortage-date calculation
+- Threshold-aware capacity alerts
+- Expansion scenario comparison
+- Procurement recommendations
+- AI-powered recommendations using LangGraph
+- Grounded AI responses based on actual database and forecast results
+- CSV data ingestion
+- Prometheus integration
+- PDF and CSV report export
+- Multi-data-center support
+- Authentication and role-based access control
+Tech Stack
+Frontend: React.js, TypeScript, Tailwind CSS, Recharts
+Backend: FastAPI, Python, SQLAlchemy, Pydantic
+Database: PostgreSQL
+Forecasting: Prophet, XGBoost
+AI Orchestration: LangGraph
+Integrations: Prometheus, OpenTelemetry, CSV, Internal APIs
+Deployment: Docker
+One of the main goals of this project was to avoid fake dashboard logic. The platform works from real infrastructure telemetry, and forecasting, alerts, scenarios, procurement recommendations, and AI insights are all derived from persisted application data.
+The AI layer is also designed to remain functional without paid APIs, with optional Gemini/Groq support and a local deterministic fallback.
+This project gave me hands-on experience with:
+- AI system architecture
+- time-series forecasting
+- capacity planning
+- backend service design
+- API integration
+- data ingestion pipelines
+- production-oriented React dashboards
+- grounded AI workflows
+I’m continuing to improve the forecasting, procurement, and infrastructure intelligence capabilities of the platform.
+#ArtificialIntelligence #MachineLearning #DataCenter #CapacityPlanning #FastAPI #ReactJS #PostgreSQL #Python #XGBoost #Prophet #LangGraph #FullStackDevelopment #AIEngineering #CloudInfrastructure #DevOps #SoftwareDevelopment

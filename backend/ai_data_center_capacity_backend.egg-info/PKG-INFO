@@ -1,0 +1,33 @@
+Metadata-Version: 2.4
+Name: ai-data-center-capacity-backend
+Version: 0.1.0
+Summary: Backend for the AI Data Center Capacity Planning Agent
+Requires-Python: <3.13,>=3.11
+Requires-Dist: fastapi<1,>=0.115
+Requires-Dist: uvicorn[standard]<1,>=0.30
+Requires-Dist: pydantic<3,>=2.9
+Requires-Dist: pydantic-settings<3,>=2.5
+Requires-Dist: sqlalchemy<3,>=2.0
+Requires-Dist: alembic<2,>=1.13
+Requires-Dist: psycopg[binary]<4,>=3.2
+Requires-Dist: PyJWT<3,>=2.9
+Requires-Dist: argon2-cffi<26,>=23
+Requires-Dist: python-multipart<1,>=0.0.12
+Requires-Dist: email-validator<3,>=2.2
+Requires-Dist: httpx<1,>=0.27
+Requires-Dist: pandas<3,>=2.2
+Requires-Dist: numpy<3,>=1.26
+Requires-Dist: scikit-learn<2,>=1.5
+Requires-Dist: prophet<2,>=1.1
+Requires-Dist: xgboost<4,>=2.1
+Requires-Dist: langgraph<2,>=0.2
+Requires-Dist: celery[redis]<6,>=5.4
+Requires-Dist: jinja2<4,>=3.1
+Requires-Dist: weasyprint<70,>=62
+Requires-Dist: reportlab<5,>=4.2
+Provides-Extra: dev
+Requires-Dist: pytest<10,>=8; extra == "dev"
+Requires-Dist: pytest-asyncio<1,>=0.24; extra == "dev"
+Requires-Dist: pytest-cov<7,>=5; extra == "dev"
+Requires-Dist: ruff<1,>=0.7; extra == "dev"
+Requires-Dist: mypy<2,>=1.13; extra == "dev"
